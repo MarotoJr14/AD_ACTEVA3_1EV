@@ -1,0 +1,85 @@
+[2025-11-27 12:52:10] INICIALIZACIÓN: Archivo de inventario creado
+[2025-11-27 12:52:10] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:04:14] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:05:23] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:05:29] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:05:57] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:05:57] BÚSQUEDA: Criterio='Nombre contiene 'Televisor'', Resultados=23
+[2025-11-27 13:07:17] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:07:35] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:07:35] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:07:35] BÚSQUEDA: Criterio='ID=1001', Resultados=0
+[2025-11-27 13:07:35] ALTA: Producto ID=1001, Nombre='Maroto'
+[2025-11-27 13:07:40] LISTAR: Total de productos listados: 1001
+[2025-11-27 13:07:53] LISTAR: Total de productos listados: 1001
+[2025-11-27 13:07:53] BÚSQUEDA: Criterio='ID=1001', Resultados=1
+[2025-11-27 13:08:15] LISTAR: Total de productos listados: 1001
+[2025-11-27 13:08:15] BÚSQUEDA: Criterio='ID=1001', Resultados=1
+[2025-11-27 13:08:15] LISTAR: Total de productos listados: 1001
+[2025-11-27 13:08:15] MODIFICACIÓN: Producto ID=1001 - Cambios: Precio: 10,00 -> 1000000,00; 
+[2025-11-27 13:08:19] LISTAR: Total de productos listados: 1001
+[2025-11-27 13:08:36] LISTAR: Total de productos listados: 1001
+[2025-11-27 13:08:36] BÚSQUEDA: Criterio='ID=1001', Resultados=1
+[2025-11-27 13:08:46] LISTAR: Total de productos listados: 1001
+[2025-11-27 13:08:46] BAJA: Producto ID=1001, Nombre='Maroto'
+[2025-11-27 13:23:06] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:23:28] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:23:28] BÚSQUEDA: Criterio='Stock <= 10', Resultados=23
+[2025-11-27 13:34:07] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:34:31] CONSULTA HISTORIAL: Consulta del registro de operaciones
+[2025-11-27 13:35:10] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:35:10] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:35:10] BÚSQUEDA: Criterio='ID=1001', Resultados=0
+[2025-11-27 13:35:10] ALTA: Producto ID=1001, Nombre='A'
+[2025-11-27 13:35:39] LISTAR: Total de productos listados: 1001
+[2025-11-27 13:35:39] BÚSQUEDA: Criterio='ID=1001', Resultados=1
+[2025-11-27 13:35:46] LISTAR: Total de productos listados: 1001
+[2025-11-27 13:35:46] BAJA: Producto ID=1001, Nombre='A'
+[2025-11-27 13:35:56] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:36:12] BACKUP: Backup creado: inventario_backup_2025-11-27.txt
+[2025-11-27 13:37:08] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:41:06] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:41:12] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:41:49] BACKUP: Backup creado: inventario_backup_2025-11-27_1.txt
+[2025-11-27 13:41:49] BACKUP: Restaurado backup: inventario_backup_2025-11-27.txt
+[2025-11-27 13:42:34] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:42:57] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:43:50] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:43:53] LISTAR: Total de productos listados: 1000
+[2025-11-27 13:48:42] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 13:49:01] BACKUP: Backup creado: inventario_backup_2025-11-27_2.txt
+[2025-11-27 13:49:20] BACKUP: Backup creado: inventario_backup_2025-11-27_3.txt
+[2025-11-27 13:49:20] BACKUP: Restaurado backup: inventario_backup_2025-11-27_2.txt
+[2025-11-27 13:49:32] LISTAR: Total de productos listados: 1000
+[2025-11-27 15:55:57] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 15:56:08] LISTAR: Total de productos listados: 1000
+[2025-11-27 15:56:48] LISTAR: Total de productos listados: 1000
+[2025-11-27 15:57:20] LISTAR: Total de productos listados: 1000
+[2025-11-27 15:57:20] BÚSQUEDA: Criterio='Nombre contiene 'Televisi�n'', Resultados=0
+[2025-11-27 15:58:04] LISTAR: Total de productos listados: 1000
+[2025-11-27 15:58:04] BÚSQUEDA: Criterio='Nombre contiene 'Television'', Resultados=0
+[2025-11-27 15:58:20] LISTAR: Total de productos listados: 1000
+[2025-11-27 15:58:20] BÚSQUEDA: Criterio='Nombre contiene 'Televisor'', Resultados=23
+[2025-11-27 15:58:52] CONSULTA HISTORIAL: Consulta del registro de operaciones
+[2025-11-27 16:00:23] BACKUP: Backup creado: inventario_backup_2025-11-27.txt
+[2025-11-27 16:01:30] LISTAR: Total de productos listados: 1000
+[2025-11-27 16:01:30] LISTAR: Total de productos listados: 1000
+[2025-11-27 16:01:30] BÚSQUEDA: Criterio='ID=1001', Resultados=0
+[2025-11-27 16:01:30] ALTA: Producto ID=1001, Nombre='Pizarra'
+[2025-11-27 16:02:11] LISTAR: Total de productos listados: 1001
+[2025-11-27 16:02:11] BÚSQUEDA: Criterio='ID=1001', Resultados=1
+[2025-11-27 16:02:15] LISTAR: Total de productos listados: 1001
+[2025-11-27 16:02:15] BAJA: Producto ID=1001, Nombre='Pizarra'
+[2025-11-27 16:02:37] INICIALIZACIÓN: Sistema de gestión de inventario iniciado
+[2025-11-27 16:02:59] LISTAR: Total de productos listados: 1000
+[2025-11-27 16:02:59] BÚSQUEDA: Criterio='ID=1000', Resultados=1
+[2025-11-27 16:03:28] LISTAR: Total de productos listados: 1000
+[2025-11-27 16:03:28] BÚSQUEDA: Criterio='ID=1000', Resultados=1
+[2025-11-27 16:03:28] LISTAR: Total de productos listados: 1000
+[2025-11-27 16:03:28] MODIFICACIÓN: Producto ID=1000 - Cambios: Stock: 436 -> 1; 
+[2025-11-27 16:03:41] LISTAR: Total de productos listados: 1000
+[2025-11-27 16:03:41] BÚSQUEDA: Criterio='ID=1000', Resultados=1
+[2025-11-27 16:03:46] LISTAR: Total de productos listados: 1000
+[2025-11-27 16:03:46] BÚSQUEDA: Criterio='ID=1000', Resultados=1
+[2025-11-27 16:03:46] LISTAR: Total de productos listados: 1000
+[2025-11-27 16:03:46] MODIFICACIÓN: Producto ID=1000 - Cambios: Stock: 1 -> 436; 

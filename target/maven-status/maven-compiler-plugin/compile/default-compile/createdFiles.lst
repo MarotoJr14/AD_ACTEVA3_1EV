@@ -1,0 +1,14 @@
+com\empresa\inventario\util\XMLExporter.class
+com\empresa\inventario\dao\DAOInterface.class
+com\empresa\inventario\dao\CategoryDAO.class
+com\empresa\inventario\config\DBConfig.class
+com\empresa\inventario\Main.class
+com\empresa\inventario\util\CSVMovementsLoader.class
+com\empresa\inventario\model\Product.class
+com\empresa\inventario\dao\StockDAO.class
+com\empresa\inventario\model\StockMovement.class
+com\empresa\inventario\dao\ProductDAO.class
+com\empresa\inventario\model\Category.class
+com\empresa\inventario\util\CSVLoader.class
+com\empresa\inventario\util\LoggerUtil.class
+com\empresa\inventario\util\JsonExporter.class

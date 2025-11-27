@@ -1,0 +1,62 @@
+<!--
+     Archivo de configuración Maven para el proyecto Gestor de Inventario
+     Define dependencias, plugins y propiedades de compilación
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- Identificación y versión del proyecto -->
+    <groupId>com.empresa</groupId>
+    <artifactId>gestor-inventario</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    
+    <!-- Propiedades de compilación -->
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+    
+    <!-- Dependencias necesarias para la ejecución -->
+    <dependencies>
+        <!-- Conector JDBC para MySQL -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+        <!-- Librería para manejo de archivos CSV -->
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.7.1</version>
+        </dependency>
+        <!-- Librería para manejo de JSON (Jackson) -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.2</version>
+        </dependency>
+        <!-- Librería para manejo de XML (Jackson) -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>2.15.2</version>
+        </dependency>
+    </dependencies>
+    
+    <!-- Plugins de construcción y ejecución -->
+    <build>
+        <plugins>
+            <!-- Plugin para ejecutar la aplicación desde Maven -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>com.empresa.inventario.Main</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
